@@ -14,6 +14,7 @@
 		A4CA55CF2C2A0D5D00A68CAB /* UberGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CA55CE2C2A0D5D00A68CAB /* UberGoUITests.swift */; };
 		A4CA55D12C2A0D5D00A68CAB /* UberGoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CA55D02C2A0D5D00A68CAB /* UberGoUITestsLaunchTests.swift */; };
 		A4CA55E52C2A162D00A68CAB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CA55E42C2A162D00A68CAB /* HomeView.swift */; };
+		A4CA55E72C2A17D000A68CAB /* UberMapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CA55E62C2A17D000A68CAB /* UberMapViewRepresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A4CA55CE2C2A0D5D00A68CAB /* UberGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberGoUITests.swift; sourceTree = "<group>"; };
 		A4CA55D02C2A0D5D00A68CAB /* UberGoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberGoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A4CA55E42C2A162D00A68CAB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A4CA55E62C2A17D000A68CAB /* UberMapViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberMapViewRepresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				A4CA55E42C2A162D00A68CAB /* HomeView.swift */,
+				A4CA55E62C2A17D000A68CAB /* UberMapViewRepresentable.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4CA55B42C2A0D5B00A68CAB /* UberGoApp.swift in Sources */,
+				A4CA55E72C2A17D000A68CAB /* UberMapViewRepresentable.swift in Sources */,
 				A4CA55E52C2A162D00A68CAB /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

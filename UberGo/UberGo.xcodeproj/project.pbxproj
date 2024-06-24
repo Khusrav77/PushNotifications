@@ -13,6 +13,7 @@
 		A4CA55C52C2A0D5D00A68CAB /* UberGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CA55C42C2A0D5D00A68CAB /* UberGoTests.swift */; };
 		A4CA55CF2C2A0D5D00A68CAB /* UberGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CA55CE2C2A0D5D00A68CAB /* UberGoUITests.swift */; };
 		A4CA55D12C2A0D5D00A68CAB /* UberGoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CA55D02C2A0D5D00A68CAB /* UberGoUITestsLaunchTests.swift */; };
+		A4CA55E52C2A162D00A68CAB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CA55E42C2A162D00A68CAB /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		A4CA55CA2C2A0D5D00A68CAB /* UberGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4CA55CE2C2A0D5D00A68CAB /* UberGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberGoUITests.swift; sourceTree = "<group>"; };
 		A4CA55D02C2A0D5D00A68CAB /* UberGoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberGoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A4CA55E42C2A162D00A68CAB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,11 +94,10 @@
 		A4CA55B22C2A0D5B00A68CAB /* UberGo */ = {
 			isa = PBXGroup;
 			children = (
-				A4CA55E32C2A144B00A68CAB /* Core */,
 				A4CA55E02C2A0E6800A68CAB /* App */,
+				A4CA55E32C2A144B00A68CAB /* Core */,
 				A4CA55E22C2A13E900A68CAB /* Extentions */,
 				A4CA55E12C2A0E9300A68CAB /* Menagers */,
-				A4CA55B32C2A0D5B00A68CAB /* UberGoApp.swift */,
 				A4CA55B72C2A0D5D00A68CAB /* Assets.xcassets */,
 				A4CA55B92C2A0D5D00A68CAB /* Preview Content */,
 			);
@@ -131,6 +132,7 @@
 		A4CA55DD2C2A0D8500A68CAB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A4CA55E42C2A162D00A68CAB /* HomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -152,6 +154,7 @@
 		A4CA55E02C2A0E6800A68CAB /* App */ = {
 			isa = PBXGroup;
 			children = (
+				A4CA55B32C2A0D5B00A68CAB /* UberGoApp.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4CA55B42C2A0D5B00A68CAB /* UberGoApp.swift in Sources */,
+				A4CA55E52C2A162D00A68CAB /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

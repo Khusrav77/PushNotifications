@@ -15,6 +15,7 @@
 		A4CA55D12C2A0D5D00A68CAB /* UberGoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CA55D02C2A0D5D00A68CAB /* UberGoUITestsLaunchTests.swift */; };
 		A4CA55E52C2A162D00A68CAB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CA55E42C2A162D00A68CAB /* HomeView.swift */; };
 		A4CA55E72C2A17D000A68CAB /* UberMapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CA55E62C2A17D000A68CAB /* UberMapViewRepresentable.swift */; };
+		A4CA55E92C2A1D7A00A68CAB /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CA55E82C2A1D7A00A68CAB /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		A4CA55D02C2A0D5D00A68CAB /* UberGoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberGoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A4CA55E42C2A162D00A68CAB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A4CA55E62C2A17D000A68CAB /* UberMapViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberMapViewRepresentable.swift; sourceTree = "<group>"; };
+		A4CA55E82C2A1D7A00A68CAB /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 		A4CA55E12C2A0E9300A68CAB /* Menagers */ = {
 			isa = PBXGroup;
 			children = (
+				A4CA55E82C2A1D7A00A68CAB /* LocationManager.swift */,
 			);
 			path = Menagers;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4CA55E92C2A1D7A00A68CAB /* LocationManager.swift in Sources */,
 				A4CA55B42C2A0D5B00A68CAB /* UberGoApp.swift in Sources */,
 				A4CA55E72C2A17D000A68CAB /* UberMapViewRepresentable.swift in Sources */,
 				A4CA55E52C2A162D00A68CAB /* HomeView.swift in Sources */,
@@ -484,6 +488,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"UberGo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Please allow us to access your location to find you noby diveis ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -512,6 +518,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"UberGo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Please allow us to access your location to find you noby diveis ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

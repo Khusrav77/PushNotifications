@@ -14,6 +14,7 @@ struct UberMapViewRepresentable: UIViewRepresentable {
     
     let mapView = MKMapView()
     let locationManager = LocationManager()
+    @EnvironmentObject var locationViewModel: LocationSearchViewModel
     
     func makeUIView(context: Context) -> some UIView {
         mapView.delegate = context.coordinator
@@ -31,7 +32,9 @@ struct UberMapViewRepresentable: UIViewRepresentable {
     func makeCoordinator() -> MapCoordinator {
         return MapCoordinator(parent: self)
     }
+    
 }
+
     extension UberMapViewRepresentable {
         
         class MapCoordinator: NSObject, MKMapViewDelegate {
@@ -48,7 +51,7 @@ struct UberMapViewRepresentable: UIViewRepresentable {
                     span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05))
                 
                 parent.mapView.setRegion(region, animated: true)
-            }
         }
     }
+}
 

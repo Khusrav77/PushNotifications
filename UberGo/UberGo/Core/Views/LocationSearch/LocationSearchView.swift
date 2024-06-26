@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct LocationSearchView: View {
     @State private var startLocationText = ""
     @Binding var showLocationSearchView: Bool
@@ -55,7 +56,7 @@ struct LocationSearchView: View {
                     ForEach(viewModel.result, id: \.self) { result in
                         LocationSearchResultCell(title: result.title, subtitle: result.subtitle)
                             .onTapGesture {
-                                viewModel.selectLocation(result.title)
+                                viewModel.selectLocation(result)
                                 showLocationSearchView.toggle()
                                 
                             }

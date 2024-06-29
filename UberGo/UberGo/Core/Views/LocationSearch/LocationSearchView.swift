@@ -43,6 +43,7 @@ struct LocationSearchView: View {
                         .background(Color(.systemGray4))
                         .padding(.trailing)
                 }
+            
             }
             .padding(.horizontal)
             .padding(.top, 64)

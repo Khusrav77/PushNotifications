@@ -9,6 +9,8 @@ import SwiftUI
 
 struct RideRequestView: View {
     @State private var selectedRideType: RideType = .uberX
+    @EnvironmentObject var locationVM: LocationSearchViewModel
+   
     var body: some View {
         VStack {
             Capsule()
@@ -87,12 +89,12 @@ struct RideRequestView: View {
                                 Text(type.description)
                                     .font(.system(size: 14, weight: .semibold))
                                 
-                                Text("$22")
+                                Text(locationVM.computeRidePrice(forType: type).toCurrency())
                                     .font(.system(size: 14, weight: .semibold))
                                 
-                                
                             }
-                            .padding()
+                            .padding(8)
+                            .padding(.bottom, 8)
                         }
                         .frame(width: 112, height: 140)
                         .foregroundStyle(type == selectedRideType ? .white : .black)

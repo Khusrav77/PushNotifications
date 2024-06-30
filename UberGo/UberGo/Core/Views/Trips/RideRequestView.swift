@@ -95,12 +95,11 @@ struct RideRequestView: View {
                                     .font(.system(size: 14, weight: .semibold))
                                 
                             }
-                            .padding(8)
-                            .padding(.bottom, 8)
+                            .padding()
                         }
                         .frame(width: 112, height: 140)
-                        .foregroundStyle(type == selectedRideType ? .white : .black)
-                        .background(Color(type == selectedRideType ? .systemBlue : .systemGroupedBackground))
+                        .foregroundStyle(type == selectedRideType ? .white : Color.theme.primaryTextColor)
+                        .background(type == selectedRideType ? .blue : Color.theme.secondaryBackgroundColor)
                         .scaleEffect(type == selectedRideType ? 1.2 : 1.0)
                         .clipShape(RoundedRectangle(cornerRadius: 10))
                         .onTapGesture {
@@ -140,7 +139,7 @@ struct RideRequestView: View {
                     .padding()
             }
             .frame(height: 50)
-            .background(Color(.systemGroupedBackground))
+            .background(Color.theme.secondaryBackgroundColor)
             .clipShape(RoundedRectangle(cornerRadius: 10))
             .padding(.horizontal)
             
@@ -155,12 +154,11 @@ struct RideRequestView: View {
                     .background(.blue)
                     .clipShape(RoundedRectangle(cornerRadius: 10))
                     .foregroundStyle(.white)
-                    .padding(.vertical, 8)
             }
         }
-        .padding(.bottom)
-        .background(.white)
-        .clipShape(RoundedRectangle(cornerRadius: 20))
+        .padding(.bottom, 24)
+        .background(Color.theme.backgroundColor)
+        .clipShape(RoundedRectangle(cornerRadius: 16))
         
         
     }

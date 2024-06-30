@@ -43,20 +43,22 @@ struct RideRequestView: View {
                         
                         Spacer()
                         
-                        Text("1:30 PM")
+                        Text(locationVM.pickupTime ?? "")
                             .font(.system(size: 14, weight: .semibold))
                             .foregroundStyle(.gray)
                     }
                     .padding(.bottom)
                     
                     HStack{
-                        Text("Starbucks Coffee")
-                            .font(.system(size: 16, weight: .semibold))
+                        if let location = locationVM.selectedUberLocation {
+                            Text(location.title)
+                                .font(.system(size: 16, weight: .semibold))
+                        }
                             
                         
                         Spacer()
                         
-                        Text("1:45 PM")
+                        Text(locationVM.dropOffTime ?? "")
                             .font(.system(size: 14, weight: .semibold))
                             .foregroundStyle(.gray)
                     }

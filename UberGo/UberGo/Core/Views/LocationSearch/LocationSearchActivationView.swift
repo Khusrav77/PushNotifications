@@ -25,6 +25,7 @@ struct LocationSearchActivationView: View {
         .background(
             Rectangle()
                 .fill(Color.white)
+                .clipShape(RoundedRectangle(cornerRadius: 6))
                 .shadow(radius: 6))
     }
 }

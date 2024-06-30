@@ -26,7 +26,7 @@ enum RideType: Int, CaseIterable, Identifiable {
         switch self {
         case .uberX: return "uber_x"
         case.uberBlack: return "uber_black"
-        case.uberXL: return "uber_xl"
+        case.uberXL: return "uber_x"
         }
     }
     

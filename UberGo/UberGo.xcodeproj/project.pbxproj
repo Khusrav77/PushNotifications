@@ -239,9 +239,9 @@
 		A4CA55E32C2A144B00A68CAB /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				A4CA55DF2C2A0DB500A68CAB /* Models */,
-				A4CA55DE2C2A0D9C00A68CAB /* ViewModels */,
 				A4CA55DD2C2A0D8500A68CAB /* Views */,
+				A4CA55DE2C2A0D9C00A68CAB /* ViewModels */,
+				A4CA55DF2C2A0DB500A68CAB /* Models */,
 			);
 			path = Core;
 			sourceTree = "<group>";

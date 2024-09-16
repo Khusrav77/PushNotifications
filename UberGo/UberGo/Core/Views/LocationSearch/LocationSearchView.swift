@@ -78,4 +78,5 @@ struct LocationSearchView: View {
 #Preview {
     
     LocationSearchView(mapState: .constant(.searchForLocation))
+        .environmentObject(LocationSearchViewModel())
 }
